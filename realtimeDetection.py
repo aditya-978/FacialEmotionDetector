@@ -1,6 +1,8 @@
+#importing necessary libraries
 import cv2
 from keras.models import model_from_json
 import numpy as np
+
 # from keras_preprocessing.image import load_img
 json_file = open("emotiondetector.json", "r")
 model_json = json_file.read()
@@ -11,6 +13,7 @@ model.load_weights("emotiondetector.keras")
 haar_file=cv2.data.haarcascades + 'haarcascade_frontalface_default.xml'
 face_cascade=cv2.CascadeClassifier(haar_file)
 
+#method declaration
 def extract_features(image):
     feature = np.array(image)
     feature = feature.reshape(1,48,48,1)
