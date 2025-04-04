@@ -1,0 +1,21 @@
+# Ignore compiled files
+*.pyc
+__pycache__/
+
+# Ignore model files
+*.h5
+*.json
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE/editor stuff
+.vscode/
+*.log
+
+#ignore image dataset
+images/
+
+#ignore ipynb checkpoints
+.ipynb_checkpoints
