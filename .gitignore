@@ -1,3 +1,5 @@
+#ignored files
+
 # Ignore compiled files
 *.pyc
 __pycache__/
