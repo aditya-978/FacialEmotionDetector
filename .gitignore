@@ -5,6 +5,7 @@ __pycache__/
 # Ignore model files
 *.h5
 *.json
+*.keras
 
 # Ignore virtual environment
 venv/
@@ -18,4 +19,4 @@ env/
 images/
 
 #ignore ipynb checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
